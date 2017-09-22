@@ -1,0 +1,57 @@
+defshell -bash # Screen will start new session in login mode
+
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c %{g}]'
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
+# Look like:
+# [ hostname ][     (0*bash) (1*logs)     ][ 2017-09-22 19:28 ]
+##    Some general options    ##
+
+# Turn off start message:
+startup_message off
+
+# Turn visual bell off
+vbell off
+
+# Set messages timeout to one second:
+msgwait 1
+
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
+# Change keybindings to work with putty
+terminfo * k1=\EOP
+terminfo * k2=\EOQ
+terminfo * k3=\EOR
+terminfo * k4=\E[14~
+terminfo * k5=\E[15~
+terminfo * k6=\E[17~
+terminfo * k7=\E[18~
+terminfo * k8=\E[19~
+terminfo * k9=\E[20~
+terminfo * F1=\E[23~
+terminfo * F2=\E[24~
+##    Keybindings    ##
+
+# bind <F7> to detach screen from this terminal
+# bind <F8> to kill current session
+# bind <F5> to create a new screen
+# bind <F9> to rename an existing window
+# bind <F11> to move to previous window
+# bind <F12> to move to next window
+bindkey -k k7 detach
+bindkey -k k8 kill
+bindkey -k k6 screen
+bindkey -k k9 title
+bindkey -k F1 select 1
+bindkey -k F2 select 2
+bindkey -k k3 select 3
+bindkey -k k4 prev
+bindkey -k k5 next
+
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+# Copy mode always
+termcapinfo xterm ti@:te@
+termcapinfo xterm-color ti@:te@
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #

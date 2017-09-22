@@ -1,0 +1,37 @@
+[user]
+  email = alkuzad@gmail.com
+  name = Dawid "Alkuzad" Gosławski
+[core]
+  excludesfile = ~/.gitignore_global
+[alias]
+  l = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate
+  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --numstat
+  st = status
+  br = branch
+  lasttag = describe --tags --abbrev=0
+  ci = commit
+  co = checkout
+  ss = stash save
+  d = diff -w --color
+  ds = diff -w --color --staged
+  dd = diff -w --color origin/develop
+  dm = diff -w --color origin/master
+  dsw = diff -w --color --staged --word-diff=color
+  dw = diff -w --color --staged --word-diff=color
+
+  # Find branches containing commit
+  fb = "!f() { git branch -a --contains $1; }; f"
+  #
+  # # Find commits by source code
+  fc = "!f() { git log --pretty=format:'%C(yellow)%h%Cred%d %Creset%s%C(cyan)\\ [%cn]' --decorate --date=short -S$1; }; f"
+  #
+  # # Find commits by commit message
+  fm = "!f() { git log --pretty=format:'%C(yellow)%h%Cred%d %Creset%s%C(cyan)\\ [%cn]' --decorate --date=short --grep=$1; }; f"
+  #
+  # # Remove branches that have already been merged with master
+  # # a.k.a. ‘delete merged’
+  dm = "!git branch --merged | grep -v '\\*' | grep -v 'master\\|develop' | xargs -n 1 git branch -d"
+  #
+  #
+[push]
+  default = matching
