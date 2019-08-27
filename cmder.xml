@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2019-08-21 15:38:34" build="180626">
+		<key name=".Vanilla" modified="2019-08-27 20:32:51" build="180626">
 			<value name="Language" type="string" data="en"/>
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
@@ -134,12 +134,12 @@
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
-			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="0"/>
+			<value name="WindowMode" type="dword" data="00000520"/>
+			<value name="ConWnd X" type="long" data="-155"/>
 			<value name="ConWnd Y" type="long" data="40"/>
-			<value name="LastMonitor" type="string" data="0,40,1920,1200"/>
-			<value name="ConWnd Width" type="dword" data="000000d3"/>
-			<value name="ConWnd Height" type="dword" data="00000039"/>
+			<value name="LastMonitor" type="string" data="0,40,1920,1080"/>
+			<value name="ConWnd Width" type="dword" data="000000cc"/>
+			<value name="ConWnd Height" type="dword" data="0000002f"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
@@ -296,7 +296,7 @@
 			<value name="TabLazy" type="hex" data="01"/>
 			<value name="TabFlashChanged" type="long" data="8"/>
 			<value name="TabRecent" type="hex" data="01"/>
-			<value name="TabDblClick" type="ulong" data="3"/>
+			<value name="TabDblClick" type="ulong" data="1"/>
 			<value name="TabBtnDblClick" type="ulong" data="6"/>
 			<value name="TabsOnTaskBar" type="hex" data="02"/>
 			<value name="TaskBarOverlay" type="hex" data="01"/>
