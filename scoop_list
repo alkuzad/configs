@@ -1,0 +1,35 @@
+  7zip 19.00
+  apache-directory-studio 2.0.0.v20180908-M14 [extras]
+  aria2 1.35.0-1
+  bfg 1.13.0
+  bluescreenview 1.55 [nirsoft]
+  cmder 1.3.14
+  curl 7.68.0
+  dark 3.11.2
+  dig 9.14.8
+  dos2unix 7.4.1
+  dotnet 1.1.1
+  findutils 4.4.2
+  foxit-reader 9.7.1.29511 [extras]
+  gawk 5.0.1
+  git 2.25.0.windows.1
+  hosts-file-editor 1.2.0 [extras]
+  innounp 0.49
+  netcat 1.12
+  nmap 7.80
+  openssh 7.6p1
+  openssl 1.1.1d
+  ruby 2.7.0-1
+  shellcheck 0.7.0
+  shfmt 3.0.1
+  sudo 0.2018.07.25
+  sysinternals September.20.2019 [extras]
+  tflint 0.13.4
+  unxutils 2007.03.01
+  upx 3.95
+  vagrant 2.2.7
+  vlc 3.0.8 [extras]
+  whatinstartup 1.35 [scoop-nirsoft]
+  windirstat 1.1.2 [extras]
+  windows-terminal 0.9.433.0 [extras]
+  winscp 5.15.9 [extras]

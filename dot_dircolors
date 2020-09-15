@@ -1,4 +1,4 @@
-onfiguration file for the color ls utility
+# Configuration file for the color ls utility
 # Synchronized with coreutils 8.5 dircolors
 # This file goes in the /etc directory, and must be world readable.
 # You can copy this file to .dir_colors in your $HOME directory to override
