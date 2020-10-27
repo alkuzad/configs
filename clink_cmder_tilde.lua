@@ -1,3 +1,6 @@
+-- Add this file to <cmder_root>/config/tilde.lua
+-- or to clink profile, where settings file is
+
 local function tilde_match (text, f, l)
     home = clink.get_env('home')
     if not home then
