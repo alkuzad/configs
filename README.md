@@ -5,7 +5,7 @@ cd $HOME
 mkdir bin
 cd bin
 curl -L https://raw.githubusercontent.com/joemiller/dotfiles/master/install-chezmoi.sh | bash
-echo "export PATH=$PATH:$PWD" >> ~/.bashrc
+echo "export PATH=\$PATH:$PWD" >> ~/.bashrc
 source ~/.bashrc
 ```
 
