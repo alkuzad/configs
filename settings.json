@@ -15,7 +15,8 @@
         {
             // Put settings here that you want to apply to all profiles
             "closeOnExit": "graceful",
-            "colorScheme": "Espresso Soda",
+            "colorScheme": "Espresso Soda Likeish",
+            "cursorShape": "filledBox",
             "fontFace": "JetBrains Mono"
         },
 
@@ -38,7 +39,7 @@
             {
                 "guid": "{35dde66d-5f05-4702-bd47-96ccba58731b}",
                 "hidden": false,
-                "commandline": "cmd.exe /s /k \"C:\\\"Program Files (x86)\"\\clink\\0.4.9\\clink_x64.exe\" inject --profile C:\\Users\\dawid.goslawski\\clink",
+                "commandline": "cmd.exe /U /S /K cd /D C:\\Users\\dawid.goslawski\\work\\ && C:\\\"Program Files (x86)\"\\clink\\0.4.9\\clink_x64.exe inject --profile C:\\Users\\dawid.goslawski\\clink",
                 "name": "Clink",
                 "icon": "C:\\Users\\dawid.goslawski\\clink\\clink.ico"
             },
@@ -53,6 +54,12 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -60,7 +67,7 @@
     // Add custom color schemes to this array
     "schemes": [
         {
-          "name": "Espresso Soda",
+          "name": "Espresso Soda Likeish",
           "black": "#000000",
           "red": "#F93232",
           "green": "#43A202",
@@ -71,7 +78,7 @@
           "white": "#ffffff",
           "brightBlack": "#555753",
           "brightRed": "#ef2929",
-          "brightGreen": "#9aff87",
+          "brightGreen": "#3cd821",
           "brightYellow": "#e0a060",
           "brightBlue": "#5FAFEF",
           "brightPurple": "#ff818a",
@@ -81,6 +88,7 @@
           "foreground": "#000000",
           "selectionBackground": "#C2E8FF",
           "cursorColor": "#000000"
+
         }
     ],
     // Add any keybinding overrides to this array.
