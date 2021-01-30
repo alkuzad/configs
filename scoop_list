@@ -1,35 +1,93 @@
-  7zip 19.00
-  apache-directory-studio 2.0.0.v20180908-M14 [extras]
-  aria2 1.35.0-1
-  bfg 1.13.0
-  bluescreenview 1.55 [nirsoft]
-  cmder 1.3.14
-  curl 7.68.0
-  dark 3.11.2
-  dig 9.14.8
-  dos2unix 7.4.1
-  dotnet 1.1.1
-  findutils 4.4.2
-  foxit-reader 9.7.1.29511 [extras]
-  gawk 5.0.1
-  git 2.25.0.windows.1
+  7zip 19.00 [main]
+  act 0.2.19 [main]
+  adopt15-hotspot-jre 15.0.2-7 [java]
+  aria2 1.35.0-1 [main]
+  awless 0.1.11 [C:\Users\dawid.goslawski\scoop\workspace\awless.json]
+  aws 2.1.22 [main]
+  beyondcompare 4.3.7.25118 [extras]
+  bfg 1.13.2 [main]
+  chezmoi 1.8.10 [twpayne]
+  curl 7.74.0_2 [main]
+  dark 3.11.2 [main]
+  dig 9.10.8 *hold*
+  docker-compose 1.28.2 [main]
+  dos2unix 7.4.2 [main]
+  dotnet 1.1.1 [main]
+  dotnet-sdk 5.0.102 [main]
+  ffmpeg 4.3.1-25 *hold* [main]
+  file 5.03 [main]
+  findutils 4.4.2 [main]
+  foxit-reader 10.0.0.35798 [extras]
+  gawk 5.1.0 [main]
+  gh 1.5.0 [main]
+  git 2.29.2.windows.2 [https://raw.githubusercontent.com/alkuzad/scoop-bucket/master/bucket/git.json]
+  gradle 6.8.1 [main]
+  groovy 3.0.7 [main]
   hosts-file-editor 1.2.0 [extras]
-  innounp 0.49
-  netcat 1.12
-  nmap 7.80
-  openssh 7.6p1
-  openssl 1.1.1d
-  ruby 2.7.0-1
-  shellcheck 0.7.0
-  shfmt 3.0.1
-  sudo 0.2018.07.25
-  sysinternals September.20.2019 [extras]
-  tflint 0.13.4
-  unxutils 2007.03.01
-  upx 3.95
-  vagrant 2.2.7
-  vlc 3.0.8 [extras]
-  whatinstartup 1.35 [scoop-nirsoft]
+  innounp 0.50 [main]
+  jfrog 1.43.2 [main]
+  jq 1.6 [main]
+  maven 3.6.3 [main]
+  msys2 2021-01-05 [main]
+  mysql 8.0.23 [main]
+  netcat 1.12 [main]
+  nmap 7.91 *failed*
+  nmap-portable 7.91 [main]
+  nodejs-lts 14.15.4 [main]
+  nvm 1.1.7 [main]
+  openhardwaremonitor 0.9.6 [extras]
+  openjdk11 11.0.2-9 [java]
+  openjdk16 16-34-ea [java]
+  openjdk9 9.0.4-12 [java]
+  openssh 8.2p1-1 [main]
+  openssl 1.1.1i [main]
+  postman 8.0.3 [extras]
+  prime95 30.3b6 [extras]
+  rehash 0.2 [rasa]
+  ripgrep 12.1.1 [main]
+  ruby 2.7.1-1 *hold* [C:\Users\dawid.goslawski\scoop\workspace\ruby.json]
+  screentogif 2.27.3 [extras]
+  shellcheck 0.7.1 [main]
+  shfmt 3.2.1 [main]
+  sqlite 3.34.1 [main]
+  sudo 0.2020.01.26 [main]
+  sysinternals 2021.January.11 [extras]
+  terraform 0.14.5 [main]
+  terragrunt 0.27.3 [main]
+  tflint 0.23.1 [main]
+  thunderbird-polish 78.7.0 [my-bucket]
+  time 0.2018.07.25 [main]
+  unison 2.51.2 [main]
+  unxutils-cat 2007.03.01 [unxutils-separated]
+  unxutils-cp 2007.03.01 [unxutils-separated]
+  unxutils-cut 2007.03.01 [unxutils-separated]
+  unxutils-date 2007.03.01 [unxutils-separated]
+  unxutils-diff 2007.03.01 [unxutils-separated]
+  unxutils-du 2007.03.01 [unxutils-separated]
+  unxutils-find 2007.03.01 [unxutils-separated]
+  unxutils-grep 2007.03.01 [unxutils-separated]
+  unxutils-head 2007.03.01 [unxutils-separated]
+  unxutils-less 2007.03.01 [unxutils-separated]
+  unxutils-ln 2007.03.01 [unxutils-separated]
+  unxutils-ls 2007.03.01 [unxutils-separated]
+  unxutils-mv 2007.03.01 [unxutils-separated]
+  unxutils-pwd 2007.03.01 [unxutils-separated]
+  unxutils-rm 2007.03.01 [unxutils-separated]
+  unxutils-sed 2007.03.01 [unxutils-separated]
+  unxutils-sort 2007.03.01 [unxutils-separated]
+  unxutils-tail 2007.03.01 [unxutils-separated]
+  unxutils-tee 2007.03.01 [unxutils-separated]
+  unxutils-tr 2007.03.01 [unxutils-separated]
+  unxutils-uniq 2007.03.01 [unxutils-separated]
+  unxutils-wc 2007.03.01 [unxutils-separated]
+  unxutils-which 2007.03.01 [unxutils-separated]
+  unxutils-zcat 2007.03.01 [unxutils-separated]
+  upx 3.96 [main]
+  vagrant 2.2.7 *hold*
+  vim 8.2 [main]
   windirstat 1.1.2 [extras]
-  windows-terminal 0.9.433.0 [extras]
-  winscp 5.15.9 [extras]
+  windows-terminal 1.5.10271.0 [extras]
+  winscp 5.17.10 [extras]
+  xmllint 2.9.3 [extras]
+  youtube-dl 2021.01.24.1 [main]
+
