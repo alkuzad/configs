@@ -15,7 +15,7 @@
         {
             // Put settings here that you want to apply to all profiles
             "closeOnExit": "graceful",
-            "colorScheme": "Espresso Soda Likeish",
+            "colorScheme": "Espresso Soda",
             "cursorShape": "filledBox",
             "fontFace": "JetBrains Mono"
         },
@@ -67,7 +67,7 @@
     // Add custom color schemes to this array
     "schemes": [
         {
-          "name": "Espresso Soda Likeish",
+          "name": "Espresso Soda",
           "black": "#000000",
           "red": "#F93232",
           "green": "#43A202",
